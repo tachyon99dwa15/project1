@@ -1,8 +1,8 @@
-*Any instructions/notes in italics should be removed from the template before submitting* 
+
 
 # Project 1
 + By: *Peter Chen*
-+ Production URL: <http://p1.yourdomain.com>
++ Production URL: <http://p1.tachyon99dwa15.com>
 
 ## Outside resources
 *your list of outside resources go here*
