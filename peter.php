@@ -32,7 +32,18 @@
 
 		<h2>Random Quote</h2>
 		<blockquote>
-			Do your own thing on your own terms and get what you came here for. -Oliver James		</blockquote>
+			<?php
+				$quotes[] = 'We must be willing to let go of the life we planned so as to have the life that is waiting for us.';
+				$quotes[] = 'Follow your bliss and the universe will open doors for you where there were only walls.';
+				$quotes[] = 'You must give up the life you planned in order to have the life that is waiting for you.';
+
+				srand ((double) microtime() * 400000);
+				$random_num = rand(0,count($quotes)-1);
+
+				echo ($quotes[$random_num]);
+  
+					?>	
+		</blockquote>
 
 	</div>
 
@@ -41,14 +52,3 @@
 </body>
 </html>
 
-<?php
-  $quotes[] = 'We must be willing to let go of the life we planned so as to have the life that is waiting for us.';
-  $quotes[] = 'Follow your bliss and the universe will open doors for you where there were only walls.';
-  $quotes[] = 'You must give up the life you planned in order to have the life that is waiting for you.';
-
-  srand ((double) microtime() * 400000);
-  $random_num = rand(0,count($quotes)-1);
-
-  echo ($quotes[$random_num]);
-  
-?>
