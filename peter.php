@@ -1,4 +1,5 @@
 <?php
+?>
 
 <!DOCTYPE html>
 <html>
@@ -40,6 +41,7 @@
 </body>
 </html>
 
+<?php
   $quotes[] = 'We must be willing to let go of the life we planned so as to have the life that is waiting for us.';
   $quotes[] = 'Follow your bliss and the universe will open doors for you where there were only walls.';
   $quotes[] = 'You must give up the life you planned in order to have the life that is waiting for you.';
