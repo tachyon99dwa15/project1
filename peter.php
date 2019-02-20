@@ -37,7 +37,7 @@
 				$quotes[] = 'Follow your bliss and the universe will open doors for you where there were only walls.';
 				$quotes[] = 'You must give up the life you planned in order to have the life that is waiting for you.';
 
-				srand ((double) microtime() * 100000);
+				srand ((double) microtime() * 1000);
 				$random_num = rand(0,count($quotes)-1);
 
 				echo ($quotes[$random_num]);
