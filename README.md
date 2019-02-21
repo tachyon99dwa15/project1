@@ -5,7 +5,7 @@
 + Production URL: <http://project1.tachyon99dwa15.me>
 
 ## Outside resources
-*your list of outside resources go here*
+*Given I'm new to PHP I did google around to be inspired by various examples. Given that I've programmed before, this code is not particularly novel or difficult. Standard random number generator for the quotes.*
 
 ## Notes for instructor
-*any notes for me to refer to while grading; if none, omit this section*
+* I did not use any CSS. Just basic HTML on this first project. Just keeping it simple.* 
